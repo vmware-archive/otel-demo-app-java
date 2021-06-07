@@ -13,8 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class DeliveryService {
 
-  public static void main(String[] args) {
-    SpringApplication.run(DeliveryService.class, args);
-  }
-
+    public static void main(String[] args) {
+        SpringApplication.run(DeliveryService.class, args);
+    }
 }

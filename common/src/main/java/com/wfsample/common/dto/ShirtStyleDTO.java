@@ -6,30 +6,30 @@ package com.wfsample.common.dto;
  * @author Srujan Narkedamalli (snarkedamall@wavefront.com).
  */
 public class ShirtStyleDTO {
-  String name;
-  String imageUrl;
+    String name;
+    String imageUrl;
 
-  public ShirtStyleDTO() {
-  }
+    public ShirtStyleDTO() {
+    }
 
-  public ShirtStyleDTO(String name, String imageUrl) {
-    this.name = name;
-    this.imageUrl = imageUrl;
-  }
+    public ShirtStyleDTO(String name, String imageUrl) {
+        this.name = name;
+        this.imageUrl = imageUrl;
+    }
 
-  public String getName() {
-    return name;
-  }
+    public String getName() {
+        return name;
+    }
 
-  public void setName(String name) {
-    this.name = name;
-  }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-  public String getImageUrl() {
-    return imageUrl;
-  }
+    public String getImageUrl() {
+        return imageUrl;
+    }
 
-  public void setImageUrl(String imageUrl) {
-    this.imageUrl = imageUrl;
-  }
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 }

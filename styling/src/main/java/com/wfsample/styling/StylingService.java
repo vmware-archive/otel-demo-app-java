@@ -11,8 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class StylingService {
 
-  public static void main(String[] args) {
-    SpringApplication.run(StylingService.class, args);
-  }
-
+    public static void main(String[] args) {
+        SpringApplication.run(StylingService.class, args);
+    }
 }

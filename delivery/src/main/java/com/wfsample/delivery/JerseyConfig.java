@@ -1,10 +1,10 @@
 package com.wfsample.delivery;
 
-import javax.inject.Inject;
-import javax.ws.rs.ApplicationPath;
-
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
+
+import javax.inject.Inject;
+import javax.ws.rs.ApplicationPath;
 
 /**
  * Jersey Configuration class for Delivery Service.
@@ -15,9 +15,8 @@ import org.springframework.stereotype.Component;
 @ApplicationPath("/")
 public class JerseyConfig extends ResourceConfig {
 
-  @Inject
-  public JerseyConfig() {
-    register(new DeliveryController());
-  }
-
+    @Inject
+    public JerseyConfig() {
+        register(new DeliveryController());
+    }
 }

@@ -6,22 +6,22 @@ package com.wfsample.common.dto;
  * @author Srujan Narkedamalli (snarkedamall@wavefront.com).
  */
 public class OrderDTO {
-  String styleName;
-  int quantity;
+    String styleName;
+    int quantity;
 
-  public String getStyleName() {
-    return styleName;
-  }
+    public String getStyleName() {
+        return styleName;
+    }
 
-  public void setStyleName(String styleName) {
-    this.styleName = styleName;
-  }
+    public void setStyleName(String styleName) {
+        this.styleName = styleName;
+    }
 
-  public int getQuantity() {
-    return quantity;
-  }
+    public int getQuantity() {
+        return quantity;
+    }
 
-  public void setQuantity(int quantity) {
-    this.quantity = quantity;
-  }
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 }

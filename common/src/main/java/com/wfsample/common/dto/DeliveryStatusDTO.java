@@ -6,40 +6,40 @@ package com.wfsample.common.dto;
  * @author Srujan Narkedamalli (snarkedamall@wavefront.com).
  */
 public class DeliveryStatusDTO {
-  String orderNum;
-  String trackingNum;
-  String status;
+    String orderNum;
+    String trackingNum;
+    String status;
 
-  public DeliveryStatusDTO() {
-  }
+    public DeliveryStatusDTO() {
+    }
 
-  public DeliveryStatusDTO(String orderNum, String trackingNum, String status) {
-    this.trackingNum = trackingNum;
-    this.orderNum = orderNum;
-    this.status = status;
-  }
+    public DeliveryStatusDTO(String orderNum, String trackingNum, String status) {
+        this.trackingNum = trackingNum;
+        this.orderNum = orderNum;
+        this.status = status;
+    }
 
-  public String getOrderNum() {
-    return orderNum;
-  }
+    public String getOrderNum() {
+        return orderNum;
+    }
 
-  public void setOrderNum(String orderNum) {
-    this.orderNum = orderNum;
-  }
+    public void setOrderNum(String orderNum) {
+        this.orderNum = orderNum;
+    }
 
-  public String getTrackingNum() {
-    return trackingNum;
-  }
+    public String getTrackingNum() {
+        return trackingNum;
+    }
 
-  public void setTrackingNum(String trackingNum) {
-    this.trackingNum = trackingNum;
-  }
+    public void setTrackingNum(String trackingNum) {
+        this.trackingNum = trackingNum;
+    }
 
-  public String getStatus() {
-    return status;
-  }
+    public String getStatus() {
+        return status;
+    }
 
-  public void setStatus(String status) {
-    this.status = status;
-  }
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }

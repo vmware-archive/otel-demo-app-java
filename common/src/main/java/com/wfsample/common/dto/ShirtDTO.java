@@ -6,20 +6,20 @@ package com.wfsample.common.dto;
  * @author Srujan Narkedamalli (snarkedamall@wavefront.com).
  */
 public class ShirtDTO {
-  ShirtStyleDTO style;
+    ShirtStyleDTO style;
 
-  public ShirtDTO() {
-  }
+    public ShirtDTO() {
+    }
 
-  public ShirtDTO(ShirtStyleDTO style) {
-    this.style = style;
-  }
+    public ShirtDTO(ShirtStyleDTO style) {
+        this.style = style;
+    }
 
-  public ShirtStyleDTO getStyle() {
-    return style;
-  }
+    public ShirtStyleDTO getStyle() {
+        return style;
+    }
 
-  public void setStyle(ShirtStyleDTO style) {
-    this.style = style;
-  }
+    public void setStyle(ShirtStyleDTO style) {
+        this.style = style;
+    }
 }

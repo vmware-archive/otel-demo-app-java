@@ -19,12 +19,12 @@ import javax.ws.rs.core.Response;
 @Produces(MediaType.APPLICATION_JSON)
 public interface DeliveryApi {
 
-  @POST
-  @Path("dispatch/{orderNum}")
-  @Consumes(MediaType.APPLICATION_JSON)
-  Response dispatch(@PathParam("orderNum") String orderNum, PackedShirtsDTO shirts);
+    @POST
+    @Path("dispatch/{orderNum}")
+    @Consumes(MediaType.APPLICATION_JSON)
+    Response dispatch(@PathParam("orderNum") String orderNum, PackedShirtsDTO shirts);
 
-  @POST
-  @Path("return/{orderNum}")
-  Response retrieve(@PathParam("orderNum") String orderNum);
+    @POST
+    @Path("return/{orderNum}")
+    Response retrieve(@PathParam("orderNum") String orderNum);
 }

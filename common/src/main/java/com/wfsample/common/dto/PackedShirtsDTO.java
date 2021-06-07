@@ -8,20 +8,20 @@ import java.util.List;
  * @author Srujan Narkedamalli (snarkedamall@wavefront.com).
  */
 public class PackedShirtsDTO {
-  List<ShirtDTO> shirts;
+    List<ShirtDTO> shirts;
 
-  public PackedShirtsDTO() {
-  }
+    public PackedShirtsDTO() {
+    }
 
-  public PackedShirtsDTO(List<ShirtDTO> shirts) {
-    this.shirts = shirts;
-  }
+    public PackedShirtsDTO(List<ShirtDTO> shirts) {
+        this.shirts = shirts;
+    }
 
-  public List<ShirtDTO> getShirts() {
-    return shirts;
-  }
+    public List<ShirtDTO> getShirts() {
+        return shirts;
+    }
 
-  public void setShirts(List<ShirtDTO> shirts) {
-    this.shirts = shirts;
-  }
+    public void setShirts(List<ShirtDTO> shirts) {
+        this.shirts = shirts;
+    }
 }
