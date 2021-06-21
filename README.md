@@ -35,7 +35,7 @@ This is a sample application using [Spring Boot](https://spring.io/projects/spri
 
 1. Download the OpenTelemetry Java Agent:
    ```bash
-   curl https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar >/tmp/opentelemetry-javaagent-all.jar
+   curl -L https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar >/tmp/opentelemetry-javaagent-all.jar
    ```
 
 2. Run the services, attaching the agent:
