@@ -35,12 +35,12 @@ This is a sample application using [Spring Boot](https://spring.io/projects/spri
 
 1. Download the OpenTelemetry Java Agent:
    ```bash
-   curl https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar >/tmp/opentelemetry-javaagent-all.jar
+   curl -Lo /tmp/opentelemetry-javaagent.jar https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/download/v1.11.1/opentelemetry-javaagent.jar
    ```
 
 2. Run the services, attaching the agent:
    ```bash
-   JAVA_AGENT=/tmp/opentelemetry-javaagent-all.jar
+   JAVA_AGENT=/tmp/opentelemetry-javaagent.jar
    java -jar -javaagent:$JAVA_AGENT ./shopping/target/shopping-1.0-SNAPSHOT.jar
    java -jar -javaagent:$JAVA_AGENT ./styling/target/styling-1.0-SNAPSHOT.jar
    java -jar -javaagent:$JAVA_AGENT ./delivery/target/delivery-1.0-SNAPSHOT.jar
