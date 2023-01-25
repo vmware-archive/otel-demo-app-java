@@ -1,3 +1,7 @@
+``` 
+VMware has ended active development of this project, this repository will no longer be updated.
+```
+
 # Tanzu Observability OTel demo app
 
 This is a sample application using [Spring Boot](https://spring.io/projects/spring-boot) with [Jersey](https://eclipse-ee4j.github.io/jersey/) called beachshirts, which makes shirts for the beach.
